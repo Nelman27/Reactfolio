@@ -7,10 +7,10 @@ function Eslogan() {
   return (
     <div className="flex flex-row leading-4">
       <div className="text-left">
-        <h1 className="text-4xl  font-sans font-extrabold  dark:text-black text-letf mt-2">
+        <h1 className="text-4xl md:text-4xl lg:text-4xl xl:text-4xl  font-sans font-extrabold  dark:text-black text-letf mt-2">
           Nelson Arrieta
         </h1>
-        <p className="mt-2 mb-4 text-2xl font-sans font-bold text-black-500 dark:text-black-400 text-letf ">
+        <p className="mt-2 mb-4 text-2xl md:text-2xl lg:text-2xl xl:text-2xl font-sans font-bold text-black-500 dark:text-black-400 text-letf ">
           Estudiante de Ingeniería en sistemas y programador Junior a tiempo
           parcial
         </p>

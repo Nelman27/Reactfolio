@@ -8,9 +8,9 @@ import ViewProjects from "./components/ViewProjects.jsx";
 
 function App() {
   return (
-    <div className="max-w-4xl mx-auto mb-10">
+    <div className="max-w-3xl mx-auto mb-10 leading-6">
       <div className="p-16 w-full mx-auto">
-        <div className="flex flex-row justify-content-between">
+        <div className="flex flex-row justify-content-between w-full ">
           <Eslogan className="ml-5 inline-block" />
           <Imagen className="inline-block" />
         </div>
