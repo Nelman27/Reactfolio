@@ -1,0 +1,26 @@
+const skills = [
+    "Microsoft Office",
+    "Redes",
+    "Python",
+    "C/C++",
+    "JavaScript",
+    "HTML5/CSS3",
+    "Tailwindcss",
+    "MySQL",
+    "PostgreSQL",
+    "Github",
+    "Django",
+    "FastApi",
+    "Django Rest Framework",
+    "React",
+    "React Native",
+    "Nextjs",
+    "Node",
+    "Express",
+    "Pandas",
+    "Visual Studio Code",
+    "Albañilería",
+    "Mecánica",
+]
+
+export default skills;
