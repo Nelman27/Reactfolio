@@ -12,11 +12,11 @@ function Education() {
         Ingeniería en Sistemas
       </p>
 
-      <p className="mt-2 font-sans text-base  text-left">
+      <p className="mt-2 font-sans text-base  text-center">
         Cursando actualmente 3 materias del 7vo semestre y una del 8vo semestre
       </p>
 
-      <p className="mt-2 font-sans text-base  text-left">
+      <p className="mt-2 font-sans text-base  text-center">
         - Actualmente realizando curso de ReactJs en Codeacademy y Python en
         Cisco Skills
       </p>
