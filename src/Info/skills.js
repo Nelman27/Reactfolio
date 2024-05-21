@@ -17,7 +17,6 @@ const skills = [
     "Nextjs",
     "Node",
     "Express",
-    "Pandas",
     "Visual Studio Code",
     "Albañilería",
     "Mecánica",

@@ -1,5 +1,5 @@
 import React from "react";
-import skills from "./skills.js";
+import skills from "../Info/skills";
 
 function Skills() {
   return (

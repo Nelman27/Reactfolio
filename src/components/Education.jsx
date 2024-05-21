@@ -1,26 +1,25 @@
 import React from "react";
+import titles from "../Info/titles.js";
 
 function Education() {
   return (
     <div className="mt-5">
       <h1 className="mt-3 font-sans text-3xl md:text-3xl lg:text-3xl xl:text-3xl font-bold text-left">Educación</h1>
-      <p className="mt-3 font-sans text-lg font-bold text-left mr-4">
-        Universidad Santa María
-      </p>
-
-      <p className="mt-3 font-sans text-base  font-bold text-left ">
-        Ingeniería en Sistemas
-      </p>
-
-      <p className="mt-2 font-sans text-base  text-center">
-        Cursando actualmente 3 materias del 7vo semestre y una del 8vo semestre
-      </p>
-
-      <p className="mt-2 font-sans text-base  text-center">
-        - Actualmente realizando curso de ReactJs en Codeacademy y Python en
-        Cisco Skills
-      </p>
-    </div>
+      <div>
+        {titles.map((title) => (
+          <div key={title.id}>
+            <p className="mt-3 font-sans text-base font-bold text-left mr-4">{title.nombre}</p>
+            <p className="mt-3 font-sans text-base font-bold text-left mr-4">{title.sede}</p>
+            <p>{title.descripcion}</p>
+            {title.web && (
+              <a className="mt-2 font-sans font-bold text-base  text-center" href={title.web.url} target="_black">
+              Ver certificado
+              </a>              
+            )}
+          </div>
+        ))}
+      </div>
+    </div>  
   );
 }
 
